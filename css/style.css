@@ -1,0 +1,120 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2. h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*this is comments*/
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.box1{
+	width: 20%;
+	float: left;
+}
+.box2{
+	width:80%;
+	float: left;
+}
+.navbar{
+	width: 100%;
+	float: left;
+	display: block;
+	text-align: right;
+	margin: 30px 0px 0px;
+}
+.navbar li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar li a{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	margin: 0px 20px;
+	color: black;
+	text-transform: uppercase;
+}
+.navbar li a:hover{
+	color: #08c;
+}
+
+.banner{
+	width: 100%;
+	height: 400px;
+	float: left;
+	background: #191919;
+
+}
+.box-1{
+	width: 50%;
+	height: 400px;
+	background: yellow;
+	float: left;
+}
+.box-2{
+	width: 50%;
+	height: 400px;
+	background: red;
+	float: left;
+}
+.service{
+	width: 100%;
+	height: 400px;
+	float: left;
+	background: #555;
+}
+.box-3{
+	width: 33.33%;
+	height: 400px;
+	background: #08c;
+	float: left;
+}
+.box-4{
+	width: 33.33%;
+	height: 400px;
+	background: violet;
+	float: left;
+}
+.box-5{
+	width: 33.33%;
+	height: 400px;
+	background: blue;
+	float: left;
+}
+.project{
+	width: 100%;
+	height: 500px;
+	float: left;
+	background: #675878;
+}
+.project .box-6{
+	width: 70%;
+	height: 400px;
+	background: #08c;
+	margin: 50px 200px;
+	text-align: center;
+}
+.footer{
+	width: 100%;
+	height: 150px;
+	background: black;
+	float: left;
+}
